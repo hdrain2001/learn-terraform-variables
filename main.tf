@@ -132,5 +132,5 @@ module "s3_bucket" {
   source  = "app.terraform.io/policy-as-code-training/terraform-aws-s3-bucket-hdrai/aws"
   version = "1.0.0"
   
-  bucket_name = "s3-bucket-hdrai-1133"
+  bucket_name = "lab4-3-bucket-hdrai"
 }
