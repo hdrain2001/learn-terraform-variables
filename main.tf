@@ -128,9 +128,8 @@ module "ec2_instances" {
   }
 }
 
-module "s3_bucket" {
-  source  = "app.terraform.io/policy-as-code-training/terraform-aws-s3-bucket-hdrai/aws"
+module "terraform-aws-s3-bucket-hdrai" {
+  source  = "app.terraform.io/policy-as-code-training-hdr/terraform-aws-s3-bucket-hdrai/AWS"
   version = "1.0.0"
-  
   bucket_name = "lab4-3-bucket-hdrai"
 }
